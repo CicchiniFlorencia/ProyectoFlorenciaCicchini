@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Cyrene;
+    src: url('../Fuentes/Cyrene\ Regular.otf');
+}
+
+body{
+    font-family: Cyrene;
+    font-size: 100%;    
+    background-image: url(../fondo/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 130px
+}
+
+h1 { 
+    font-size: 3.34em;
+    margin-top: 370px;
+}
+
+h2 { 
+    font-size: 9.36em;
+    letter-spacing: 7px;
+    margin-top: -40px;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 7.36em;
+    letter-spacing: 7px;
+    margin-left: 260px;
+    margin-top: -160px;
+}
+
+p {
+    font-size: 3.71em;
+    margin-left: 260px;
+}
+
+li {
+    font-size: 2.8em;
+    margin-top: 60px;
+    margin-left: 1270px;
+}
+
+li2 {
+    font-size: 1.0em;
+    margin-top: -100px;
+    margin-left: 260px;
+}
+
+@media(max-width: 768px){
+    body {font-size: 80%};
+}
